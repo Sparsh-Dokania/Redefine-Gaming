@@ -6,6 +6,7 @@ import Features from './components/Features'
 import Story from './components/Story'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Story />
       <Contact/>
       <Footer/>
+      <Analytics/>
     </main>
   )
 }
